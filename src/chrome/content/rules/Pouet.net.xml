@@ -1,0 +1,9 @@
+<ruleset name="Pouet.net">
+
+	<target host="pouet.net" />
+	<target host="www.pouet.net" />
+
+	<rule from="^http://(www\.)?pouet\.net/"
+		to="https://www.pouet.net/" />
+
+</ruleset>
